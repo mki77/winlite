@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
+	<AppInfo>
+	</AppInfo>
+	<ImageInfo>
+		<Version mode="offline">Windows 11 Core (22H2) x64 - 10.0.22621.1 (en-US)</Version>
+	</ImageInfo>
+	<RemoveComponents AppRemovalMode="DISM">
+		<c>assembly.net ''</c>
+		<c>langime ''</c>
+		<c>langimejp ''</c>
+		<c>langimeko ''</c>
+		<c>langimetc ''</c>
+		<c>manifestbackup ''</c>
+		<c>microsoft.windowsstore ''</c>
+		<c>sourcessxsdir ''</c>
+		<c>supportdir ''</c>
+	</RemoveComponents>
+	<Compatibility protectHidden="true">
+		<ComponentFeatures>
+			<Feature enabled="yes">ActivationKMS</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="no">YubiKey</Feature>
+			<Feature enabled="yes">Bluetooth</Feature>
+			<Feature enabled="yes">CapFrameX</Feature>
+			<Feature enabled="yes">ManualSetup</Feature>
+			<Feature enabled="yes">Recommended-All</Feature>
+			<Feature enabled="yes">VSS</Feature>
+			<Feature enabled="yes">Discord</Feature>
+			<Feature enabled="yes">Recommended-Tablet</Feature>
+			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="yes">Hyper-V</Feature>
+			<Feature enabled="no">iCloud</Feature>
+			<Feature enabled="yes">NetworkDiscovery</Feature>
+			<Feature enabled="yes">NightLight</Feature>
+			<Feature enabled="no">OfficeSupport</Feature>
+			<Feature enabled="yes">USBModem</Feature>
+			<Feature enabled="no">Netflix</Feature>
+			<Feature enabled="yes">NvidiaSetup</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="no">AppGuard</Feature>
+			<Feature enabled="yes">ShellSearchSupport</Feature>
+			<Feature enabled="yes">SamsungSwitch</Feature>
+			<Feature enabled="no">Scanning</Feature>
+			<Feature enabled="yes">Spotify</Feature>
+			<Feature enabled="yes">ServicingStack</Feature>
+			<Feature enabled="no">Printing</Feature>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="yes">FileSharing</Feature>
+			<Feature enabled="yes">VPN</Feature>
+			<Feature enabled="yes">SafeMode</Feature>
+			<Feature enabled="yes">SFC</Feature>
+			<Feature enabled="no">TeamViewer</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
+			<Feature enabled="yes">VisualStudio</Feature>
+			<Feature enabled="no">WindowsStore</Feature>
+			<Feature enabled="yes">WindowsUpdate</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="yes">Hyper-V VM</Machine>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="yes">Parallels VM</Machine>
+			<Machine enabled="yes">Virtual Box VM</Machine>
+			<Machine enabled="yes">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Features>
+		<Feature name="App.StepsRecorder~~~~0.0.1.0">false</Feature>
+		<Feature name="App.Support.QuickAssist~~~~0.0.1.0">false</Feature>
+		<Feature name="Browser.InternetExplorer~~~~0.0.11.0">false</Feature>
+		<Feature name="DirectPlay">true</Feature>
+		<Feature name="Hello.Face.20134~~~~0.0.1.0">false</Feature>
+		<Feature name="Internet-Explorer-Optional-amd64">false</Feature>
+		<Feature name="Language.Basic~~~~0.0.1.0">false</Feature>
+		<Feature name="Language.Handwriting~~~~0.0.1.0">false</Feature>
+		<Feature name="Language.OCR~~~~0.0.1.0">false</Feature>
+		<Feature name="Language.Speech~~~~0.0.1.0">false</Feature>
+		<Feature name="Language.TextToSpeech~~~~0.0.1.0">false</Feature>
+		<Feature name="LegacyComponents">true</Feature>
+		<Feature name="MathRecognizer~~~~0.0.1.0">false</Feature>
+		<Feature name="Media.WindowsMediaPlayer~~~~0.0.12.0">false</Feature>
+		<Feature name="MediaPlayback">false</Feature>
+		<Feature name="Microsoft.Wallpapers.Extended~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.PowerShell.ISE~~~~0.0.1.0">false</Feature>
+		<Feature name="MicrosoftWindowsPowerShellV2">false</Feature>
+		<Feature name="MicrosoftWindowsPowerShellV2Root">false</Feature>
+		<Feature name="MSRDC-Infrastructure">false</Feature>
+		<Feature name="NetFx4-AdvSrvs">false</Feature>
+		<Feature name="OneCoreUAP.OneSync~~~~0.0.1.0">false</Feature>
+		<Feature name="OpenSSH.Client~~~~0.0.1.0">false</Feature>
+		<Feature name="Print.Fax.Scan~~~~0.0.1.0">false</Feature>
+		<Feature name="Printing-Foundation-Features">false</Feature>
+		<Feature name="Printing-Foundation-InternetPrinting-Client">false</Feature>
+		<Feature name="Printing-PrintToPDFServices-Features">false</Feature>
+		<Feature name="Printing-XPSServices-Features">false</Feature>
+		<Feature name="SearchEngine-Client-Package">false</Feature>
+		<Feature name="SMB1Protocol">false</Feature>
+		<Feature name="SMB1Protocol-Client">false</Feature>
+		<Feature name="SMB1Protocol-Deprecation">false</Feature>
+		<Feature name="WCF-Services45">false</Feature>
+		<Feature name="WCF-TCP-PortSharing45">false</Feature>
+		<Feature name="Windows.Client.ShellComponents~~~~0.0.1.0">false</Feature>
+		<Feature name="WindowsMediaPlayer">false</Feature>
+		<Feature name="WMIC~~~~">false</Feature>
+		<Feature name="WorkFolders-Client">false</Feature>
+	</Features>
+	<Packages></Packages>
+	<Commands>
+		<PostUpdates>
+			<!--<Command>cmd /c echo Example from [MOUNTDIR]\Windows &amp; pause</Command>-->
+			<!--<Command>dism /image:[MOUNTDIR] /get-intl</Command>-->
+		</PostUpdates>
+	</Commands>
+	<Unattended mode="1">
+		<OEMSetupComplete>false</OEMSetupComplete>
+		<AnswerFileLocationPanther>true</AnswerFileLocationPanther>
+		<AnswerFileLocationBoot>false</AnswerFileLocationBoot>
+		<SaveBothArch>false</SaveBothArch>
+		<EditionPrompt>false</EditionPrompt>
+		<settings pass="oobeSystem">
+			<component name="Microsoft-Windows-Shell-Setup">
+				<OOBE>
+					<HideEULAPage>true</HideEULAPage>
+					<HideLocalAccountScreen>true</HideLocalAccountScreen>
+					<HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+					<HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+					<NetworkLocation>Home</NetworkLocation>
+					<ProtectYourPC>3</ProtectYourPC>
+				</OOBE>
+				<UserAccounts>
+					<LocalAccounts>
+						<LocalAccount>
+							<Group>Administrators</Group>
+							<Name>Admin</Name>
+							<Password>
+								<PlainText>true</PlainText>
+								<Value></Value>
+							</Password>
+						</LocalAccount>
+					</LocalAccounts>
+				</UserAccounts>
+			</component>
+		</settings>
+		<settings pass="specialize">
+			<component name="Microsoft-Windows-Security-SPP-UX">
+				<SkipAutoActivation>true</SkipAutoActivation>
+			</component>
+		</settings>
+		<settings pass="windowsPE">
+			<component name="Microsoft-Windows-Setup">
+				<Diagnostics>
+					<OptIn>false</OptIn>
+				</Diagnostics>
+				<DynamicUpdate>
+					<Enable>true</Enable>
+					<WillShowUI>OnError</WillShowUI>
+				</DynamicUpdate>
+				<ImageInstall>
+					<OSImage>
+						<Compact>false</Compact>
+						<WillShowUI>OnError</WillShowUI>
+						<InstallFrom>
+							<MetaData>
+								<Key>/IMAGE/INDEX</Key>
+								<Value>1</Value>
+							</MetaData>
+						</InstallFrom>
+					</OSImage>
+				</ImageInstall>
+				<UserData>
+					<AcceptEula>true</AcceptEula>
+					<ProductKey>
+						<Key></Key>
+						<WillShowUI>OnError</WillShowUI>
+					</ProductKey>
+				</UserData>
+			</component>
+		</settings>
+	</Unattended>
+	<Tweaks>
+		<Settings>
+			<TweakGroup name="AutoLogger">
+				<Tweak name="Circular Kernel Context Logger\Start">0</Tweak>
+				<Tweak name="CloudExperienceHostOobe\Start">0</Tweak>
+				<Tweak name="DefenderApiLogger\Start">0</Tweak>
+				<Tweak name="DefenderAuditLogger\Start">0</Tweak>
+				<Tweak name="DiagLog\Start">0</Tweak>
+				<Tweak name="Diagtrack-Listener\Start">0</Tweak>
+				<Tweak name="LwtNetLog\Start">0</Tweak>
+				<Tweak name="Microsoft-Windows-Rdp-Graphics-RdpIdd-Trace\Start">0</Tweak>
+				<Tweak name="NetCore\Start">0</Tweak>
+				<Tweak name="RadioMgr\Start">0</Tweak>
+				<Tweak name="ReadyBoot\Start">0</Tweak>
+				<Tweak name="ReFSLog\Start">0</Tweak>
+				<Tweak name="SpoolerLogger\Start">0</Tweak>
+				<Tweak name="UBPM\Start">0</Tweak>
+				<Tweak name="WdiContextLog\Start">0</Tweak>
+				<Tweak name="WiFiSession\Start">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="CrashControl">
+				<Tweak name="CrashControl\LogEvent">0</Tweak>
+				<Tweak name="CrashControl\CrashDumpEnabled">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="PowerAndShutdown">
+				<Tweak name="Power\HiberFileSizePercent">50</Tweak>
+				<Tweak name="System\ShutdownWithoutLogon">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="DesktopTweaks">
+				<Tweak name="Advanced\TaskbarAl">0</Tweak>
+				<Tweak name="Advanced\TaskbarMn">0</Tweak>
+				<Tweak name="Advanced\TaskbarSd">1</Tweak>
+				<Tweak name="Communications\ConfigureChatAutoInstall">0</Tweak>
+				<Tweak name="Desktop\MenuShowDelay">200</Tweak>
+				<Tweak name="DWM\ColorPrevalence">0</Tweak>
+				<Tweak name="InprocServer32\"></Tweak>
+				<Tweak name="Keyboard\PrintScreenKeyForSnippingEnabled">1</Tweak>
+				<Tweak name="Personalize\ColorPrevalence">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Explorer">
+				<Tweak name="AutoplayHandlers\DisableAutoplay">1</Tweak>
+				<Tweak name="Advanced\DontUsePowerShellOnWinX">1</Tweak>
+				<Tweak name="Advanced\FolderContentsInfoTip">1</Tweak>
+				<Tweak name="Advanced\ShowSuperHidden">1</Tweak>
+				<Tweak name="Advanced\HideFileExt">0</Tweak>
+				<Tweak name="Advanced\UseCompactMode">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Privacy">
+				<Tweak name="AppCompat\DisableInventory">1</Tweak>
+				<Tweak name="AppCompat\DisablePCA">1</Tweak>
+				<Tweak name="BackgroundAccessApplications\GlobalUserDisabled">0</Tweak>
+				<Tweak name="Client\OptInOrOutPreference">0</Tweak>
+				<Tweak name="CloudContent\DisableWindowsConsumerFeatures">1</Tweak>
+				<Tweak name="CloudContent\DisableWindowsSpotlightFeatures">1</Tweak>
+				<Tweak name="ContentDeliveryManager\OemPreInstalledAppsEnabled">0</Tweak>
+				<Tweak name="ContentDeliveryManager\PreInstalledAppsEnabled">0</Tweak>
+				<Tweak name="ContentDeliveryManager\SilentInstalledAppsEnabled">0</Tweak>
+				<Tweak name="ContentDeliveryManager\SubscribedContent-310093Enabled">0</Tweak>
+				<Tweak name="ContentDeliveryManager\SubscribedContent-338393Enabled">0</Tweak>
+				<Tweak name="ContentDeliveryManager\SystemPaneSuggestionsEnabled">0</Tweak>
+				<Tweak name="DataCollection\AllowTelemetry">1</Tweak>
+				<Tweak name="Explorer\ShowFrequent">0</Tweak>
+				<Tweak name="Explorer\ShowRecent">0</Tweak>
+				<Tweak name="Explorer\SmartScreenEnabled">Off</Tweak>
+				<Tweak name="features\PaidWifi">0</Tweak>
+				<Tweak name="features\WiFiSenseOpen">0</Tweak>
+				<Tweak name="InputPersonalization\AllowInputPersonalization">0</Tweak>
+				<Tweak name="InputPersonalization\RestrictImplicitInkCollection">1</Tweak>
+				<Tweak name="InputPersonalization\RestrictImplicitTextCollection">1</Tweak>
+				<Tweak name="Internet Explorer\PhishingFilter\Enabledv9">0</Tweak>
+				<Tweak name="MicrosoftEdge\PhishingFilter\Enabledv9">0</Tweak>
+				<Tweak name="Privacy\TailoredExperiencesWithDiagnosticDataEnabled">0</Tweak>
+				<Tweak name="Rules\NumberOfSIUFInPeriod">0</Tweak>
+				<Tweak name="Search\BingSearchEnabled">0</Tweak>
+				<Tweak name="Settings\InsightsEnabled">0</Tweak>
+				<Tweak name="System\AllowExperimentation">0</Tweak>
+				<Tweak name="System\AllowLocation">0</Tweak>
+				<Tweak name="System\EnableActivityFeed">0</Tweak>
+				<Tweak name="System\EnableCdp">0</Tweak>
+				<Tweak name="TIPC\Enabled">0</Tweak>
+				<Tweak name="UserProfileEngagement\ScoobeSystemSettingEnabled">0</Tweak>
+				<Tweak name="Windows Search\AllowCloudSearch">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="System">
+				<Tweak name=".NETFramework\OnlyUseLatestCLR">1</Tweak>
+				<Tweak name="Activation\Manual">1</Tweak>
+				<Tweak name="Configuration\DisableResetbase">0</Tweak>
+				<Tweak name="Device\DevicePasswordLessBuildVersion">0</Tweak>
+				<Tweak name="DiskQuota\Enable">0</Tweak>
+				<Tweak name="GameConfigStore\GameDVR_FSEBehavior">0</Tweak>
+				<Tweak name="GraphicsDrivers\HwSchMode">2</Tweak>
+				<Tweak name="LabConfig\BypassRAMCheck">1</Tweak>
+				<Tweak name="LabConfig\BypassTPMCheck">1</Tweak>
+				<Tweak name="Memory Management\PagingFiles1">-:\pagefile.sys</Tweak>
+				<Tweak name="OneDrive\DisableFileSyncNGSC">1</Tweak>
+				<Tweak name="OOBE\BypassNRO">1</Tweak>
+				<Tweak name="ReserveManager\ShippedWithReserves">0</Tweak>
+				<Tweak name="ReserveManager\ShippedWithReserves">1</Tweak>
+				<Tweak name="StoragePolicy\01">0</Tweak>
+				<Tweak name="StoragePolicy\01">1</Tweak>
+				<Tweak name="StoragePolicy\04">1</Tweak>
+				<Tweak name="StoragePolicy\256">14</Tweak>
+				<Tweak name="StoragePolicy\512">0</Tweak>
+				<Tweak name="System\DisableAutomaticRestartSignOn">1</Tweak>
+				<Tweak name="System\EnableFirstLogonAnimation">0</Tweak>
+				<Tweak name="Windows\DisableATMFD">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="WindowsDefender">
+				<Tweak name="Features\TamperProtection">0</Tweak>
+				<Tweak name="Notifications\DisableEnhancedNotifications">1</Tweak>
+				<Tweak name="Notifications\DisableNotifications">1</Tweak>
+				<Tweak name="Policy\VerifiedAndReputablePolicyState">0</Tweak>
+				<Tweak name="State\AccountProtection_MicrosoftAccount_Disconnected">0</Tweak>
+				<Tweak name="Windows Defender\DisableAntiSpyware">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="WindowsUpdate">
+				<Tweak name="AU\AUOptions">2</Tweak>
+				<Tweak name="AU\NoAutoUpdate">1</Tweak>
+				<Tweak name="DeliveryOptimization\DODownloadMode">99</Tweak>
+				<Tweak name="DriverSearching\SearchOrderConfig">1</Tweak>
+				<Tweak name="MRT\DontOfferThroughWUAU">1</Tweak>
+				<Tweak name="Preferences\ModelDownloadAllowed">0</Tweak>
+				<Tweak name="Settings\AllowAutoWindowsUpdateDownloadOverMeteredNetwork">0</Tweak>
+				<Tweak name="Settings\IsContinuousInnovationOptedIn">0</Tweak>
+				<Tweak name="Settings\IsExpedited">1</Tweak>
+				<Tweak name="Settings\RestartNotificationsAllowed2">1</Tweak>
+			</TweakGroup>
+		</Settings>
+		<Services>
+			<TweakGroup name="services">
+				<Tweak name="BDESVC\BDESVC">4</Tweak>
+				<Tweak name="CDPSvc\CDPSvc">4</Tweak>
+				<Tweak name="diagnosticshub.standardcollector.service\diagnosticshub.standardcollector.service">4</Tweak>
+				<Tweak name="DiagTrack\DiagTrack">4</Tweak>
+				<Tweak name="edgeupdate\edgeupdate">4</Tweak>
+				<Tweak name="InventorySvc\InventorySvc">4</Tweak>
+				<Tweak name="lfsvc\lfsvc">4</Tweak>
+				<Tweak name="NaturalAuthentication\NaturalAuthentication">4</Tweak>
+				<Tweak name="p2pimsvc\p2pimsvc">4</Tweak>
+				<Tweak name="p2psvc\p2psvc">4</Tweak>
+				<Tweak name="PcaSvc\PcaSvc">4</Tweak>
+				<Tweak name="RasAuto\RasAuto">4</Tweak>
+				<Tweak name="RetailDemo\RetailDemo">4</Tweak>
+				<Tweak name="SecurityHealthService\SecurityHealthService">4</Tweak>
+				<Tweak name="SessionEnv\SessionEnv">4</Tweak>
+				<Tweak name="Spooler\Spooler">4</Tweak>
+				<Tweak name="TermService\TermService">4</Tweak>
+				<Tweak name="TextInputManagementService\TextInputManagementService">3</Tweak>
+				<Tweak name="UsoSvc\UsoSvc">4</Tweak>
+				<Tweak name="WbioSrvc\WbioSrvc">4</Tweak>
+				<Tweak name="webthreatdefusersvc\webthreatdefusersvc">4</Tweak>
+				<Tweak name="Wecsvc\Wecsvc">4</Tweak>
+				<Tweak name="WerSvc\WerSvc">4</Tweak>
+				<Tweak name="WinDefend\WinDefend">4</Tweak>
+				<Tweak name="wisvc\wisvc">4</Tweak>
+				<Tweak name="WpcMonSvc\WpcMonSvc">4</Tweak>
+				<Tweak name="wscsvc\wscsvc">4</Tweak>
+			</TweakGroup>
+		</Services>
+		<ExtraServices></ExtraServices>
+		<ScheduledTasks></ScheduledTasks>
+	</Tweaks>
+	<ApplyOptions>
+		<ImageTasks>
+			<Task>imageSaveTrim</Task>
+			<Task>imageFormatWim</Task>
+		</ImageTasks>
+		<AutoIsoFile>NTLite.iso</AutoIsoFile>
+		<AutoIsoLabel>NTLite</AutoIsoLabel>
+		<AutoSplitSize>4000</AutoSplitSize>
+		<CleanHotfixedLeftovers>4</CleanHotfixedLeftovers>
+		<OptimizeAppX>true</OptimizeAppX>
+		<ReuseDriverCache>false</ReuseDriverCache>
+	</ApplyOptions>
+	<Execution>
+		<Remove></Remove>
+		<Change></Change>
+		<Add></Add>
+	</Execution>
+</Preset>
