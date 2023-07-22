@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Source='Windows Firewall Control', Type='User Settings', Date='15/07/2023 11:41:40'-->
+<Options>
+  <Option Name="HotKeyRulesPanel" Value="" Type="String" Scope="User" />
+  <Option Name="HotKeyConnectionsPanel" Value="" Type="String" Scope="User" />
+  <Option Name="HotKeyProfileToggle" Value="" Type="String" Scope="User" />
+  <Option Name="UserLanguage" Value="wfcEN.lng" Type="String" Scope="User" />
+  <Option Name="PlacementNotification" Value="334'1010'350'380'120'Normal" Type="String" Scope="User" />
+  <Option Name="RulesColumnsVisibility" Value="101011110000110000" Type="String" Scope="User" />
+  <Option Name="RulesColumnsOrder" Value="0'1'2'3'4'5'6'7'8'9'10'11'12'13'14'15'16'17" Type="String" Scope="User" />
+  <Option Name="RulesColumnsSize" Value="300'191'236'120'100'70'70'80'140'100'140'100'78'110'120'120'120'120" Type="String" Scope="User" />
+  <Option Name="RulesDisplay" Value="0" Type="String" Scope="User" />
+  <Option Name="RulesFilter" Value="1" Type="String" Scope="User" />
+  <Option Name="PlacementRulesPanel" Value="51'217'800'600'120'Maximized" Type="String" Scope="User" />
+  <Option Name="LogAutoLoad" Value="1" Type="String" Scope="User" />
+  <Option Name="LogColumnsVisibility" Value="101111000110" Type="String" Scope="User" />
+  <Option Name="LogColumnsOrder" Value="10'0'1'2'3'4'5'6'7'8'9'11" Type="String" Scope="User" />
+  <Option Name="LogColumnsSize" Value="150'80'177'200'139'40'140'100'82'52'40'110" Type="String" Scope="User" />
+  <Option Name="LogConnections" Value="0" Type="String" Scope="User" />
+  <Option Name="LogDirection" Value="0" Type="String" Scope="User" />
+  <Option Name="LogDays" Value="0" Type="String" Scope="User" />
+  <Option Name="LogEntries" Value="0" Type="String" Scope="User" />
+  <Option Name="PlacementConnectionsPanel" Value="70'274'800'600'120'Maximized" Type="String" Scope="User" />
+  <Option Name="PlacementMainPanel" Value="213'721'640'500'120'Normal" Type="String" Scope="User" />
+  <Option Name="UserConfirmDeletion" Value="1" Type="String" Scope="User" />
+  <Option Name="UserLastPolicyPath" Value="D:\Documents\Scripts\Network" Type="String" Scope="User" />
+  <Option Name="PlacementCustomize" Value="54'363'640'620'120'Normal" Type="String" Scope="User" />
+  <Option Name="LogColumnsFreeze" Value="0" Type="String" Scope="User" />
+  <Option Name="PlacementProperties" Value="41'297'640'620'120'Normal" Type="String" Scope="User" />
+  <Option Name="Log" Value="1" Type="DWord" Scope="Global" />
+  <Option Name="NotificationLevel" Value="2" Type="DWord" Scope="Global" />
+  <Option Name="AutoUpdate" Value="1" Type="DWord" Scope="Global" />
+  <Option Name="InstallModeActive" Value="1" Type="DWord" Scope="Global" />
+  <Option Name="InstallModeTimeout" Value="10" Type="DWord" Scope="Global" />
+  <Option Name="NotificationTimeout" Value="10" Type="DWord" Scope="Global" />
+  <Option Name="TemporaryExpiration" Value="10" Type="DWord" Scope="Global" />
+  <Option Name="NotificationBehavior" Value="6" Type="DWord" Scope="Global" />
+  <Option Name="SecureRules2" Value="1" Type="DWord" Scope="Global" />
+  <Option Name="SecureRulesMode" Value="3" Type="DWord" Scope="Global" />
+  <Option Name="SecureBoot" Value="0" Type="DWord" Scope="Global" />
+</Options>

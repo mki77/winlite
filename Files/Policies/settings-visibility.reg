@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Hide some Settings pages
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"SettingsPageVisibility"="hide:project;crossdevice;remotedesktop;network-cellular;network-wificalling;nfctransactions;maps;sync;speech;easeofaccess-narrator;easeofaccess-speechrecognition;easeofaccess-eyecontrol;privacy-speech;privacy-general;privacy-speechtyping;privacy-feedback;privacy-activityhistory;privacy-location;privacy-callhistory;privacy-eyetracker;privacy-messaging;privacy-automaticfiledownloads;delivery-optimization;windowsdefender;findmydevice;windowsinsider'
