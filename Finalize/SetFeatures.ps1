@@ -1,0 +1,2 @@
+Get-WindowsOptionalFeature -Online | ? State -match 'Enabled' | ? FeatureName -notmatch 'Direct' | ? FeatureName -notmatch 'Legacy' | ? FeatureName -notmatch 'NetFx' | ForEach-Object {Disable-WindowsOptionalFeature -Online -FeatureName $_.FeatureName}
+Enable-WindowsOptionalFeature -Online -FeatureName DirectPlay -All

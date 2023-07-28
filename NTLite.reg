@@ -479,13 +479,9 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
 "LongPathsEnabled"=dword:00000000
-"NtfsDisable8dot3NameCreation"=dword:00000001
 "NtfsDisableCompression"=dword:00000000
-"NtfsDisableEncryption"=dword:00000001
-"NtfsDisableLastAccessUpdate"=dword:80000001
+"NtfsDisableLastAccessUpdate"=dword:00000001
 "NtfsEncryptPagingFile"=dword:00000000
-"NtfsMemoryUsage"=dword:00000001
-"NtfsMftZoneReservation"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers]
 "HwSchMode"=dword:00000002

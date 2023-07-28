@@ -1,1 +1,0 @@
-@set __COMPAT_LAYER=RUNASINVOKER && start SystemPropertiesPerformance.exe

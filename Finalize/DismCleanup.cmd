@@ -4,13 +4,13 @@
 pushd "%~dp0"
 title %~n0 //github.com/mki77
 color 4f
-rem mode con:cols=80 lines=40
+mode con:cols=80 lines=40
 set DISM=dism.exe /English /LogLevel:1 /LogPath:%SystemRoot%\Temp\dism.log /Online
 set "_=                          "
 set strip=[7m %_%[ DiSM CleanUp ]%_% [0m
 set strip=cls^&echo.^&echo.%strip%^&echo.
 call %strip%
-rem call :RmApps
+call :RmApps
 rem call :RmFeatures
 call :RmPackages
 echo.

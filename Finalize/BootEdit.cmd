@@ -16,6 +16,8 @@ rem bcdedit /set loadoptions DISABLE_INTEGRITY_CHECKS
 :: Disable Hyper-V (default)
 bcdedit /set hypervisorlaunchtype off
 bcdedit /debug off
+timeout 3 >nul
+exit
 :: Rename boot items
 bcdedit
 bcdedit /set {guid} description "New Name"
